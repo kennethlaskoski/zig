@@ -282,7 +282,7 @@ pub const Target = struct {
                         },
                         .x86_64 => VersionRange{
                             .semver = .{
-                                .min = .{ .major = 11, .minor = 7, .patch = 1 },
+                                .min = .{ .major = 10, .minor = 14, .patch = 6 },
                                 .max = .{ .major = 13, .minor = 3, .patch = 0 },
                             },
                         },
